@@ -1,0 +1,15 @@
+#submitBtn {
+    margin-top: 20px;
+    width: 100px;
+    background-color: rgb(135, 255, 183);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#submitBtn:hover {
+    background-color: green;
+    color: white;
+}
