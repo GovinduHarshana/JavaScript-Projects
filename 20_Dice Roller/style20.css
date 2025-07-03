@@ -1,0 +1,118 @@
+/* #container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(31, 104, 160);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(17, 63, 99);
+}
+
+button:active {
+    background-color: rgb(7, 31, 49);
+}
+
+input {
+    font-size: 2rem;
+    width: 200px;
+    height: 42px;
+
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #1e3a8a;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #333;
+}
+
+input[type="number"] {
+    font-size: 1.1rem;
+    padding: 8px;
+    width: 70px;
+    text-align: center;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #60a5fa;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+#diceResult {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #1f2937;
+}
+
+#diceImages {
+    margin-top: 15px;
+}
+
+#diceImages img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+#diceImages img:hover {
+    transform: scale(1.2);
+}
